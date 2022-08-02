@@ -10,15 +10,45 @@
 <body>
 
 <header class=container>
+<img style="float: right;" src="images/navi3.gif">
 <hgroup>
 <h1> Navi's Interweb Domain </h1>
 <h2> This will be a website at some point </h2>
 </hgroup>
+<div class="grid">
+    <button>VGM Psi</button>
+    <button class="secondary">Files</button>
+    <a href="Updates" ><button class="secondary">Updates</button></a>
+    <details role="list">
+              <summary style="text-align:center" aria-haspopup="listbox" role="button" class="secondary">Links</summary>
+              <ul role="listbox">
+                <li><a href="#">"A Dolphin's Tale" Mirror</a></li>
+                <li><a href="#">/g/'s based sites Mirror</a></li>
+                <li><a href="#">MKWii Filenames</a></li>
+                <li><a href="#">Old Site</a></li>
+                <li><a href="Links">External Links</a></li>
+              </ul>
+            </details>
+    <button class="secondary">Contact</button>
+</div>
 </header>
 
 <main class=container>
-<p><a href="plans/">plans</a></p>
+<h4>Welcome to my site!</h4>
+<p><a href="plans/">current plans</a></p>
+
+<article>
+<h3>Latest Update</h3>
+<iframe style="width:100%;" scrolling="no" src="Updates/index.html#testUpdate"></iframe>
+<a href="Updates"><button style="width: auto;" class="outline contrast">More... </button></a>
+
+</article>
+
 </main>
+
+ <footer class="container">
+      <small>Built with <a href="https://picocss.com">Pico</a> • <a href="https://github.com/picocss/examples/blob/master/preview/index.html">Source code</a></small>
+    </footer>
 
 </body>
 </html>
